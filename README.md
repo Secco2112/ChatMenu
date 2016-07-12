@@ -16,6 +16,8 @@ Features:
     v2.0 - Muriatic Acid, Hydrogen Chloride and Caustic Soda options just will only appear if you are in Cook Off, Lab Rats or Rats.
     v2.0 - If you are on the first day of Hotline Miami will also appear the options of chemicals and city locations to find the barcodes. All this in a third page of the menu.
     v2.0 - QuickMenu to SimpleMenu.
+    v2.1 - Added Italian translation to 2.0 version.
+    v2.1 - Added voice audio to "Fix the drill" option.
 
 Installation:
 
@@ -35,4 +37,4 @@ Localizations:
     French - Mr.PlayYou [BE]
     Turkish - =T$E=Vasquez
 
-I have to thank these people up for supporting the mod. Thanks also to FishTaco and Dr_Newbie who helped me with some things.
+I have to thank these people up for supporting the mod. Thanks also to FishTaco and Dr_Newbie who helped me with some things.
