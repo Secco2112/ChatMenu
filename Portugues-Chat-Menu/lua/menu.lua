@@ -391,9 +391,9 @@ end
 --NÃO FOI TESTADO
 --[[Refem = Refem or function()  
 if inCustody() then
-managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Make a hostage, please!")
+managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Faz um refém ai, por favor")
 else
-managers.chat:_receive_message(1, "Chat Menu", "You have to be in custody to use this message.", Color.red)
+managers.chat:_receive_message(1, "Chat Menu", "Você precisa estar em custódia para usar esta mensagem", Color.red)
 end
 end]]--
 
