@@ -100,13 +100,35 @@ end
 callmenu3 = function()
     openmenu(mymenu3)
 end
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+--DELAY CALL PARA NÃO SPAMAR
+
+local tempo=5
+
+delay=delay or false
+
+function ativarTimer()
+	delay=false
+end
 	
 ---------------------------------------------------------------------------------------------------------------------------------
 
 --MENSAGENS
 
-Oi = Oi or function()   
-managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Hello")
+local erro=false
+
+Oi = Oi or function()
+	if not delay then
+		delay=true
+		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Hello")
+		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		erro=false
+	elseif delay and not erro then
+		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		erro=true
+	end
 end
 
 Blz = Blz or function()
