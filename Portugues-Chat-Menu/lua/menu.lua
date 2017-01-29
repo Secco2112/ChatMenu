@@ -58,35 +58,35 @@ end
 --FUNÇÕES GLOBAIS
 
 function isPlaying()
-		if not BaseNetworkHandler then return false end
-		return BaseNetworkHandler._gamestate_filter.any_ingame_playing[ game_state_machine:last_queued_state_name() ]
-	end
+	if not BaseNetworkHandler then return false end
+	return BaseNetworkHandler._gamestate_filter.any_ingame_playing[ game_state_machine:last_queued_state_name() ]
+end
 	
 
 function inGame()
-		if not game_state_machine then return false end
-		return string.find(game_state_machine:current_state_name(), "game")
-	end
+	if not game_state_machine then return false end
+	return string.find(game_state_machine:current_state_name(), "game")
+end
 	
 local isMultiplayer = isMultiplayer or function()
-        if managers.network == nil then
-            return false
-        end
-        return managers.network:session()
+    if managers.network == nil then
+        return false
     end
+    return managers.network:session()
+end
 	
 function inCustody()
-		local player = managers.player:local_player()
-		local in_custody = false
-		if managers and managers.trade and alive( player ) then
-			in_custody = managers.trade:is_peer_in_custody(managers.network:session():local_peer():id())
-		end
-		return in_custody
+	local player = managers.player:local_player()
+	local in_custody = false
+	if managers and managers.trade and alive( player ) then
+		in_custody = managers.trade:is_peer_in_custody(managers.network:session():local_peer():id())
 	end
+	return in_custody
+end
 	
 -- OPEN MENU
 function openmenu(menu)
-        menu:show()
+    menu:show()
 end
 
 callmenu1 = function()
@@ -643,7 +643,7 @@ mymenu3:hide()
 
 elseif not managers.hud then
 _dialog_data = { 
-				title = "MENU DE MENSAGEM",
+				title = "CHAT MENU",
 				text = "Você não pode abrir o Menu de Mensagem se não estiver em alguma missão.",
 				button_list = {{ text = "OK", is_cancel_button = true }},
 				id = tostring(math.random(0,0xFFFFFFFF))
