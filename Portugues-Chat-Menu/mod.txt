@@ -8,7 +8,7 @@
 		{
 			"keybind_id" : "Chat_Menu_Portuguese",
 			"name" : "[Portugues] Chat Menu",
-			"description" : "Escolha a tecla que voce ira apertar para abrir o Menu de Mensagens."
+			"description" : "Escolha a tecla que voce ira apertar para abrir o Chat Menu."
 			"script_path" : "lua/menu.lua",
 			"run_in_menu" : true,
 			"run_in_game" : true,
