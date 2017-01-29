@@ -564,7 +564,7 @@ opts[#opts+1] = { text = "", is_cancel_button = true }
 opts[#opts+1] = { text = "Successivo", callback = callmenu2, is_focused_button = true, }
 opts[#opts+1] = { text = "", is_cancel_button = true }
 opts[#opts+1] = { text = "CHIUDI", is_cancel_button = true }
-mymenu = SimpleMenu:new("CHAT MENU", "Creata da Secco2112 \nVersione 2.2 \nTradotto da Winston Wolfe", opts)
+mymenu = SimpleMenu:new("CHAT MENU", "Creata da Secco2112\nVersione 2.2\nTradotto da Winston Wolfe", opts)
 if isPlaying() and inGame() and isMultiplayer() and managers.hud then
 mymenu:show()
 
@@ -604,7 +604,7 @@ end
 opts[#opts+1] = { text = "Precedente", callback = callmenu1 }
 opts[#opts+1] = { text = "", is_cancel_button = true }
 opts[#opts+1] = { text = "CHIUDI", is_cancel_button = true }
-mymenu2 = SimpleMenu:new("CHAT MENU", "Creata da Secco2112 \nVersione 2.2 \nTradotto da Winston Wolfe", opts)
+mymenu2 = SimpleMenu:new("CHAT MENU", "Creata da Secco2112\nVersione 2.2\nTradotto da Winston Wolfe", opts)
 mymenu2:hide()
 
 --MENU 3
@@ -623,7 +623,7 @@ opts[#opts+1] = { text = "", is_cancel_button = true }
 opts[#opts+1] = { text = "Precedente", callback = callmenu2, is_focused_button = true, }
 opts[#opts+1] = { text = "", is_cancel_button = true }
 opts[#opts+1] = { text = "CHIUDI", is_cancel_button = true }
-mymenu3 = SimpleMenu:new("CHAT MENU", "Creata da Secco2112 \nVersione 2.2 \nTradotto da Winston Wolfe", opts)
+mymenu3 = SimpleMenu:new("CHAT MENU", "Creata da Secco2112\nVersione 2.2\nTradotto da Winston Wolfe", opts)
 mymenu3:hide()
 
 elseif not managers.hud then
