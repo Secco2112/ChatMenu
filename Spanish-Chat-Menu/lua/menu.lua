@@ -82,6 +82,8 @@ function inCustody()
 		end
 		return in_custody
 	end
+
+---------------------------------------------------------------------------------------------------------------------------------
 	
 -- OPEN MENU
 function openmenu(menu)
