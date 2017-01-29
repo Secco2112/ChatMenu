@@ -2,7 +2,7 @@
 	"name" : "[Italiano] Chat Menu",
 	"description" : "Un semplice menu che facilita l'invio di messaggi durante la partita."
 	"author" : "Secco2112",
-        "version" : "2.0",
+        "version" : "2.2",
 	"contact" : "gustavomarini9@gmail.com",
 	"keybinds" : [
 		{

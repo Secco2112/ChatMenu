@@ -1,8 +1,8 @@
-{
+﻿{
 	"name" : "[Francais] Menu Chat",
 	"description" : "Un simple menu qui facilite l'envoi de messages durant la partie."
 	"author" : "Secco2112",
-        "version" : "2.0",
+        "version" : "2.2",
 	"contact" : "gustavomarini9@gmail.com",
 	"keybinds" : [
 		{
