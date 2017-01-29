@@ -105,8 +105,6 @@ end
 
 --DELAY CALL PARA NÃO SPAMAR
 
-local tempo=5
-
 delay=delay or false
 
 --FUNCTION BASE BY BABYFORCE (ALL CREDITS BY THIS FOR HIM)
@@ -122,7 +120,7 @@ Oi = Oi or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Bonjour")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -135,7 +133,7 @@ Blz = Blz or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Ok, c'est parti!")
 		managers.player:local_player():sound():say("p01",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -148,7 +146,7 @@ Vlw = Vlw or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Merci!")
 		managers.player:local_player():sound():say("s05x_sin",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -161,7 +159,7 @@ Ajuda = Ajuda or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Un peu d'aide!?")
 		managers.player:local_player():sound():say("p45",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -174,7 +172,7 @@ Yeah = Yeah or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Yep")
 		managers.player:local_player():sound():say("v46",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -186,7 +184,7 @@ Nope = Nope or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Nope")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -199,7 +197,7 @@ Shit = Shit or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "MERDE!")
 		managers.player:local_player():sound():say("g60",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -212,7 +210,7 @@ Fuck = Fuck or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "PUTAIN!")
 		managers.player:local_player():sound():say("g29",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -225,7 +223,7 @@ NAmmo = NAmmo or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "J'ai besoin de Munitions!")
 		managers.player:local_player():sound():say("g81x_plu",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -238,7 +236,7 @@ NBag = NBag or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Mettez un Sac médical, svp")
 		managers.player:local_player():sound():say("g80x_plu",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -251,7 +249,7 @@ NFirst = NFirst or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Kit de premier soins, s'il vout plaît")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -264,7 +262,7 @@ AmmoH = AmmoH or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Munitions ici")
 		managers.player:local_player():sound():say("s01x_plu",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -277,7 +275,7 @@ MedicH = MedicH or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Sac médical ici")
 		managers.player:local_player():sound():say("s02x_plu",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -290,7 +288,7 @@ FirstH = FirstH or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Kit de premier soins ici")
 		managers.player:local_player():sound():say("s12",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -303,7 +301,7 @@ Shield = Shield or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Bouclier!")
 		managers.player:local_player():sound():say("f31y_any",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -317,7 +315,7 @@ Winters = Winters or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Capitaine Winters!")
 		managers.player:local_player():sound():say("cpa_a02_01",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -331,7 +329,7 @@ Lasier = Lasier or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Taser!")
 		managers.player:local_player():sound():say("f32y_any",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -344,7 +342,7 @@ Wululu = Wululu or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Cloaker!")
 		managers.player:local_player():sound():say("f33y_any",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -357,7 +355,7 @@ Snipa = Snipa or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Sniper!")
 		managers.player:local_player():sound():say("f34y_any",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -370,7 +368,7 @@ Dozer = Dozer or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "BULLDOZER!")
 		managers.player:local_player():sound():say("f30y_any",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -382,7 +380,7 @@ SkullDozer = SkullDozer or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "SKULLDOZER!")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -403,7 +401,7 @@ Mu = Mu or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Acide Chlorhydrique")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -415,7 +413,7 @@ Hcl = Hcl or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Chlorure d'Hydrogène")	
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -427,7 +425,7 @@ Cs = Cs or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Soude Caustique")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -439,7 +437,7 @@ GrabDrill = GrabDrill or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Quelqu'un peut prendre cette perceuse?!")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -452,7 +450,7 @@ FixDrill = FixDrill or function()
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Quelqu'un peut réparer cette perceuse? S'il vous plaît!")
 		managers.player:local_player():sound():say("d02x_sin",true,true)
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -464,7 +462,7 @@ Crowbar = Crowbar or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Pied de biche ici")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -476,7 +474,7 @@ Keycard = Keycard or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Carte d'accès ici")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -488,7 +486,7 @@ Shaw = Shaw or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Shaw. C'est des fourrures.")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -500,7 +498,7 @@ Downtown = Downtown or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "C'est Downtown. Nous devons trouver des cigares.")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -512,7 +510,7 @@ Foggy = Foggy or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "C'est Foggy Bottom. Vodka.")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -524,7 +522,7 @@ West = West or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "West End, trouvez des produits chimiques.")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -536,7 +534,7 @@ Georgetown = Georgetown or function()
 	if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Georgetown, code barre dans les roquettes.")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
@@ -548,7 +546,7 @@ Gas = Gas or function()
 if not delay then
 		delay=true
 		managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Essence ici")
-		DelayedCalls:Add("timerParaNaoSpam", tempo, ativarTimer)
+		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
 		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
