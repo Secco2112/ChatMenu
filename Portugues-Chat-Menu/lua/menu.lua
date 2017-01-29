@@ -644,7 +644,7 @@ mymenu3:hide()
 elseif not managers.hud then
 _dialog_data = { 
 				title = "CHAT MENU",
-				text = "Você não pode abrir o Menu de Mensagem se não estiver em alguma missão.",
+				text = "Você não pode abrir o Chat Menu se não estiver em alguma missão.",
 				button_list = {{ text = "OK", is_cancel_button = true }},
 				id = tostring(math.random(0,0xFFFFFFFF))
 			}
