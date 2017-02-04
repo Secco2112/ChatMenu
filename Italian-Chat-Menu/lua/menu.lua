@@ -125,7 +125,7 @@ Oi = Oi or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -138,7 +138,7 @@ Blz = Blz or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -151,7 +151,7 @@ Vlw = Vlw or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end   
 end
@@ -164,7 +164,7 @@ Ajuda = Ajuda or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end   
 end
@@ -177,7 +177,7 @@ Yeah = Yeah or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -189,7 +189,7 @@ Nope = Nope or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end   
 end
@@ -202,7 +202,7 @@ Shit = Shit or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end   
 end
@@ -215,7 +215,7 @@ Fuck = Fuck or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -228,7 +228,7 @@ NAmmo = NAmmo or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -241,7 +241,7 @@ NBag = NBag or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -253,7 +253,7 @@ NFirst = NFirst or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -266,7 +266,7 @@ AmmoH = AmmoH or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -279,7 +279,7 @@ MedicH = MedicH or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -292,7 +292,7 @@ FirstH = FirstH or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -305,7 +305,7 @@ Shield = Shield or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -318,7 +318,7 @@ Winters = Winters or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -332,7 +332,7 @@ Lasier = Lasier or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -345,7 +345,7 @@ Wululu = Wululu or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -358,7 +358,7 @@ Snipa = Snipa or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end   
 end
@@ -371,7 +371,7 @@ Dozer = Dozer or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -383,7 +383,7 @@ SkullDozer = SkullDozer or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end 
 end
@@ -404,7 +404,7 @@ Mu = Mu or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -416,7 +416,7 @@ Hcl = Hcl or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -428,7 +428,7 @@ Cs = Cs or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -440,7 +440,7 @@ GrabDrill = GrabDrill or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -453,7 +453,7 @@ FixDrill = FixDrill or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -465,7 +465,7 @@ Crowbar = Crowbar or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -477,7 +477,7 @@ Keycard = Keycard or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -489,7 +489,7 @@ Shaw = Shaw or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -501,7 +501,7 @@ Downtown = Downtown or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -513,7 +513,7 @@ Foggy = Foggy or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -525,7 +525,7 @@ West = West or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
@@ -537,7 +537,7 @@ Georgetown = Georgetown or function()
 		DelayedCalls:Add("timerParaNaoSpam", 5, ativarTimer)
 		erro=false
 	elseif delay and not erro then
-		managers.hud:show_hint( { text = "You need to wait 5 seconds to send another message", time = 2 } )
+		managers.hud:show_hint( { text = "È necessario attendere 5 secondi per inviare un altro messaggio", time = 2 } )
 		erro=true
 	end
 end
