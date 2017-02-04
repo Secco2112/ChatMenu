@@ -102,14 +102,6 @@ callmenu3 = function()
     openmenu(mymenu3)
 end
 
-function numPeers()
-	local i = 0
-	for k, v in pairs( managers.network:session():peers() ) do
-		i = i + 1
-	end
-	return i
-end
-
 callmenu4 = function()
 	openmenu(mymenu4)
 end
@@ -401,6 +393,7 @@ SkullDozer = SkullDozer or function()
     end
 end
 
+--[[
 Refem = Refem or function()
     if not delay then
         delay=true
@@ -412,7 +405,7 @@ Refem = Refem or function()
         erro=true
     end
 end
-
+]]
 Mu = Mu or function()
     if not delay then
         delay=true
@@ -591,8 +584,6 @@ opts[#opts+1] = { text = "Tem munição aqui", callback = AmmoH }
 opts[#opts+1] = { text = "Tem uma medic bag aqui", callback = MedicH }
 opts[#opts+1] = { text = "Tem first aid kit aqui", callback = FirstH }
 opts[#opts+1] = { text = "", is_cancel_button = true }
-opts[#opts+1] = { text = "Menu Vem cá", callback = callmenu4 }
-opts[#opts+1] = { text = "", is_cancel_button = true }
 opts[#opts+1] = { text = "Próximo", callback = callmenu2, is_focused_button = true, }
 opts[#opts+1] = { text = "", is_cancel_button = true }
 opts[#opts+1] = { text = "FECHAR", is_cancel_button = true }
@@ -632,10 +623,6 @@ opts[#opts+1] = { text = "Hydrogen Chloride", callback = Hcl }
 opts[#opts+1] = { text = "Caustic Soda", callback = Cs }
 opts[#opts+1] = { text = "", is_cancel_button = true }
 end
---if inCustody() then
---opts[#opts+1] = { text = "Preciso de refém", callback = Refem }
---opts[#opts+1] = { text = "", is_cancel_button = true }
---end
 if managers.job:current_level_id() == 'mia_1' then
 opts[#opts+1] = { text = "Próximo", callback = callmenu3, is_focused_button = true, }
 end
@@ -665,15 +652,14 @@ mymenu3 = SimpleMenu:new("CHAT MENU", "Por Secco2112\nVersão 2.2", opts)
 mymenu3:hide()
 
 
-
+--[[
 --MENU "COME HERE"
-
-local peer = managers.network._session:peer(id)
 
 function send_Message(id)
 	managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "Vem cá, " .. peer:name())
 end
 
+local peer = managers.network._session:peer(id)
 opts = {}
 for _, peer in pairs(managers.network:session():peers()) do
 	opts[#opts+1] ={text = "Vem cá, " .. peer:name(), data = peer:id(), callback = send_Message}
@@ -682,7 +668,7 @@ opts[#opts+1] = { text = "", is_cancel_button = true }
 opts[#opts+1] = { text = "FECHAR", callback = callmenu1 }
 mymenu4 = SimpleMenu:new("CHAT MENU", "Por Secco2112\nVersão 2.2", opts)
 mymenu4:hide()
-
+]]
 
 
 --NÃO ESTÁ EM JOGO
